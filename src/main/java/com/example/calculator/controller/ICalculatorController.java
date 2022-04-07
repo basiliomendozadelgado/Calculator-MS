@@ -1,8 +1,10 @@
 package com.example.calculator.controller;
 
+import com.fasterxml.jackson.databind.node.ObjectNode;
+
 public interface ICalculatorController {
 
-    Double addition(Double elem1, Double elem2);
+    ObjectNode addition(Double elem1, Double elem2);
 
-    Double subtraction(Double elem1, Double elem2);
+    ObjectNode subtraction(Double elem1, Double elem2);
 }
