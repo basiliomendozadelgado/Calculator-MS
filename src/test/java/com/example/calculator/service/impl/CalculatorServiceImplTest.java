@@ -14,13 +14,13 @@ class CalculatorServiceImplTest {
 
     @Test
     void getAddition() {
-        ObjectNode result = service.getAddition(2.0, 2.0);
-        Assertions.assertEquals("4.0", result.get("result").asText());
+        Double result = service.getAddition(2.0, 2.0);
+        Assertions.assertEquals(4.0, result);
     }
 
     @Test
     void getSubtraction() {
-        ObjectNode result = service.getSubtraction(2.0, 2.0);
-        Assertions.assertEquals("0.0", result.get("result").asText());
+        Double result = service.getSubtraction(2.0, 2.0);
+        Assertions.assertEquals(0.0, result);
     }
 }
