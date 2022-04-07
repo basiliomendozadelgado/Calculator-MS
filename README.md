@@ -7,7 +7,7 @@ mvn install
 
 ## To execute jar (from terminal):
 
-java -jar target\calculator-ms-0.0.2-SNAPSHOT.jar
+java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar
 
 
 ## To use this calculator:
