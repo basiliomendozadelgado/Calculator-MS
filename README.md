@@ -7,7 +7,11 @@ mvn install
 
 ## To execute jar (from terminal):
 
+# For Windows SO
 java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar
+
+# For Linux/MAC SO
+java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar
 
 
 ## To use this calculator:
