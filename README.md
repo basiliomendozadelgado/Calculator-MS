@@ -6,8 +6,8 @@
 
 ## From terminal:
 
-`mkdir test`
-`cd test`
+`mkdir test
+cd test`
 `git clone https://github.com/basiliomendozadelgado/Calculator-MS.git`
 `cd Calculator-MS`
 
