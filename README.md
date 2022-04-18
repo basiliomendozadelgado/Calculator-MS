@@ -1,8 +1,11 @@
 # Calculator-MS
 
 ## Minimun requirements
+
 ### Java 11
 ### Maven 3.8.1
+### Git
+
 
 ## From terminal:
 
