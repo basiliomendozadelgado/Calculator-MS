@@ -9,21 +9,27 @@
 ```
 mkdir test
 cd test
+git clone https://github.com/basiliomendozadelgado/Calculator-MS.git
+cd Calculator-MS
 ```
-`git clone https://github.com/basiliomendozadelgado/Calculator-MS.git`
-`cd Calculator-MS`
 
 ### To generate jar:
 
-`mvn validate`
-`mvn install`
+```
+mvn validate
+mvn install
+```
 
 ### To execute jar:
 #### For Windows SO
-`java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar`
+```
+java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar
+```
 
 #### For Linux/Mac SO
-`java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar`
+```
+java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar
+```
 
 
 ## To use this calculator (With Rest client, for example Postman):
