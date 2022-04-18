@@ -1,26 +1,36 @@
 # Calculator-MS
 
+## Minimun requirements
+### Java 11
+### Maven 3.8.1
 
-## To generate jar (from terminal):
+## From terminal:
 
-mvn install
+`mkdir test`
+`cd test`
+`git clone https://github.com/basiliomendozadelgado/Calculator-MS.git`
+`cd Calculator-MS`
 
-## To execute jar (from terminal):
+### To generate jar:
 
-# For Windows SO
-java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar
+`mvn validate`
+`mvn install`
 
-# For Linux/MAC SO
-java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar
+### To execute jar:
+#### For Windows SO
+`java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar`
+
+#### For Linux/Mac SO
+`java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar`
 
 
-## To use this calculator:
+## To use this calculator (With Rest client, for example Postman):
 #### Two endpoints are exposed for each operation in the API.
 ##### Main path:
 
 * http://IP_HOST:8080/api/v1
 
-Where IP_HOST where the server is located (localhost for local for example).
+Where IP_HOST the server is located (for example, localhost to local).
 
 
 ##### To do the calculation of the sum of two elements, these must be passed by parameters in the path, such as:
