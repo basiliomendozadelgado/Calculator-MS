@@ -1,11 +1,14 @@
 # Calculator-MS
 
+---
+
 ## Minimun requirements
 
 ### Java 11
 ### Maven 3.8.1
 ### Git
 
+---
 
 ## From terminal:
 
@@ -34,7 +37,7 @@ java -jar target\calculator-ms-0.1.0-SNAPSHOT.jar
 java -jar target/calculator-ms-0.1.0-SNAPSHOT.jar
 ```
 
-
+---
 ## To use this calculator (With Rest client, for example Postman):
 #### Two endpoints are exposed for each operation in the API.
 ##### Main path:
@@ -45,14 +48,14 @@ Where IP_HOST the server is located (for example, localhost to local).
 
 
 ##### To do the calculation of the sum of two elements, these must be passed by parameters in the path, such as:
-* http://IP_HOST:8080/api/v1/addition?elem1=X&elem2=Y
+* http://IP_HOST:8080/api/v1/addition?elem1=___X___&elem2=___Y___
 
-Where X is the first element and Y the second.
+Where ___X___ is the first element and ___Y___ the second.
 
 
 ##### And for the calculation of the subtraction of two elements, parameters must also be passed in the path, such as:
 
-* http://IP_HOST:8080/api/v1/subtraction?elem1=X&elem2=Y
+* http://IP_HOST:8080/api/v1/subtraction?elem1=___X___&elem2=___Y___
 
-Where X is the first element and Y the second.
+Where ___X___ is the first element and ___Y___ the second.
 
